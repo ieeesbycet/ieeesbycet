@@ -1,0 +1,42 @@
+[
+  {
+    "name": "IEEE links",
+    "links": [
+      { "name": "IEEE", "link": "https://www.ieee.org/" },
+      {
+        "name": "IEEE Xplore Digital Library",
+        "link": "https://ieeexplore.ieee.org/Xplore/home.jsp"
+      },
+      {
+        "name": "IEEE Collabratec",
+        "link": "https://ieee-collabratec.ieee.org/"
+      },
+      {
+        "name": "IEEE Spectrum Online",
+        "link": "https://spectrum.ieee.org/"
+      }
+    ]
+  },
+  {
+    "name": "Address",
+    "links": [
+      {
+        "name": "Younus college of engineering and Technology, Pallimukku, Vadakkevila P.O, Kollam - 691010",
+        "link": "#"
+      }
+    ]
+  },
+  {
+    "name": "Contact",
+    "links": [
+      {
+        "name": "Call Chairman: 9446673620",
+        "link": "tel:9446673620"
+      },
+      {
+        "name": "Call Councellor: 9496536936",
+        "link": "tel:9496536936"
+      }
+    ]
+  }
+]
