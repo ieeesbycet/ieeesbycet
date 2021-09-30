@@ -5,7 +5,7 @@ import Img from "next/image";
 export default class Nav extends React.Component {
   render() {
     return (
-      <nav className="px-8 py-4">
+      <nav className="lg:px-8 py-4">
         <div className="flex items-center justify-between p-3 lg:flex-row flex-col">
           <div>
             <div className="flex items-center justify-center">
@@ -16,7 +16,7 @@ export default class Nav extends React.Component {
               </div>
             </div>
           </div>
-          <div className="mt-8 lg:py-0">
+          <div className="mt-8 lg:py-0 flex items-center justify-center flex-wrap">
             {["About", "Execom Committee", "Contact Us"].map((link) => {
               const link_url = `/#${link
                 .replace(" ", "-")
@@ -27,6 +27,14 @@ export default class Nav extends React.Component {
                 </Link>
               );
             })}
+            <a
+              className="px-4 py-3 bg-blue-700 hover:bg-blue-800 text-white lg:mx-6 ml-4"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://ieee.org"
+            >
+              JOIN US
+            </a>
           </div>
         </div>
       </nav>
@@ -37,7 +45,7 @@ export default class Nav extends React.Component {
 function Link({ href, children }) {
   return (
     <NextLink href={href} passHref>
-      <a className="text-blue-600 lg:mx-6 ml-4 hover:underline font-medium text-3sm">
+      <a className="text-blue-600 lg:mx-6 ml-4 hover:underline font-medium text-3sm block">
         {children}
       </a>
     </NextLink>

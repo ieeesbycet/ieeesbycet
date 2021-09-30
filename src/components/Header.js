@@ -10,7 +10,7 @@ export default function Header() {
           <div className="lg:w-1/2 w-full">
             <img
               src="/header-bg.jpeg"
-              className="w-auto rounded-lg shadow-xl"
+              className="w-full h-auto rounded-lg shadow-xl"
               alt=""
             />
           </div>

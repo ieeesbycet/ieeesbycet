@@ -10,19 +10,15 @@ export default function AboutUs() {
           <div className="lg:pr-5">
             <h1 className="font-black text-5xl italics">About Us</h1>
             <p className="text-gray-700 text-lg py-12">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse consectetur gravida massa, vitae ornare ex faucibus
-              at. Maecenas ultrices, diam nec sagittis sollicitudin, velit
-              lectus fermentum tellus, sit amet maximus enim magna eget eros.
-              Morbi interdum vestibulum urna at aliquam. Fusce sed urna quis sem
-              vestibulum varius. Morbi egestas ultrices fringilla. In
-              condimentum gravida lobortis. Donec non sem orci. Pellentesque id
-              leo nec odio ultricies scelerisque. Ut vitae molestie ligula.
-              Etiam a nisl orci. Donec vehicula vehicula sagittis. Nulla
-              ultrices viverra tincidunt. Donec sagittis sodales tellus nec
-              aliquet. Aliquam nec tincidunt metus. Maecenas semper metus sit
-              amet quam ornare euismod. Aenean non justo mollis, aliquet dui id,
-              dignissim nibh.
+              The IEEE Student Branch at “Younus College of Engineering and
+              Technology” has led engineering students to success, and the YCET
+              will continue to grow in strength over the next few years, with
+              plans to hold technical and social events for the enrichment of
+              college students. The events we have planned will be open to all
+              engineering students. We intend to make students more involved in
+              technological foundations for the betterment of society and the
+              students&apos; futures. Our Student Branch intends to provide soft
+              skill training for technical benifits.
             </p>
           </div>
         </div>

@@ -34,7 +34,7 @@ export default function Footer() {
       </div>
       <div className="border-t my-12 w-full"></div>
       <div className="flex items-center justify-between max-w-screen-xl w-full lg:flex-row flex-col">
-        <div className="lg:w-1/3 w-full flex items-center justify-center py-3">
+        <div className="lg:w-1/3 w-full flex items-center lg:justify-start justify-center py-3">
           <img
             src="/IEEE-Logo.png"
             layout="fill"
@@ -49,7 +49,7 @@ export default function Footer() {
           </i>{" "}
           &nbsp; at YCET
         </div>
-        <div className="font-bold flex lg:w-1/3 w-full items-center justify-center py-3">
+        <div className="font-bold flex lg:w-1/3 w-full items-center lg:justify-end justify-center py-3">
           <FaCopyright /> &nbsp;2021 IEEE YCET SB. All Rights Reserved
         </div>
       </div>

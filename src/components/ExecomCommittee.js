@@ -18,7 +18,9 @@ export default class ExecomCommittee extends React.Component {
       >
         <div className="max-w-screen-xl">
           <div className="py-12 flex items-center justify-center font-black tracking-wide">
-            <h1 className="text-4xl">Execom Committee Members</h1>
+            <h1 className="text-4xl px-2 text-center">
+              Execom Committee Members
+            </h1>
           </div>
           <div className="flex items-center justify-left flex-wrap">
             {this.state.members.map((data) => {
@@ -35,8 +37,8 @@ function Member({ data }) {
   const size = 170;
   return (
     <div className="lg:w-1/5 w-1/2">
-      <div className="flex items-center justify-center flex-col lg:py-6 py-12">
-        <div>
+      <div className="flex items-center justify-center flex-col lg:py-6 py-12 text-center">
+        <div className="py-1">
           <Img
             src={`/members/execom_members/${data.filename}`}
             height={size}
@@ -45,7 +47,7 @@ function Member({ data }) {
             alt=""
           />
         </div>
-        <div className="text-xl font-bold mt-2">{data.name}</div>
+        <div className="text-xl font-bold mt-1">{data.name}</div>
         <div className="py-1 font-medium text-gray-600">{data.position}</div>
       </div>
     </div>
