@@ -9,7 +9,7 @@ export default class Nav extends React.Component {
         <div className="flex items-center justify-between p-3 lg:flex-row flex-col">
           <div>
             <div className="flex items-center justify-center">
-              <Img src="/logo-transparent.jpg" height="70" width="70" radius="100"/>
+              <Img className="rounded-full" src="/logo-transparent.jpg" height="70" width="70"/>
               <div className="ml-3 text-blue-900">
                 <h1 className="font-black text-4xl">IEEE</h1>
                 <h1 className="font-bold  text-xl">YCET SB</h1>
