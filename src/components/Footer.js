@@ -50,7 +50,7 @@ export default function Footer() {
           &nbsp; at YCET
         </div>
         <div className="font-bold flex lg:w-1/3 w-full items-center lg:justify-end justify-center py-3">
-          <FaCopyright /> &nbsp;2021 IEEE YCET SB. All Rights Reserved
+          <FaCopyright /> &nbsp;2022 IEEE YCET SB. All Rights Reserved
         </div>
       </div>
     </footer>
